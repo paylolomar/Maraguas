@@ -3,6 +3,13 @@ font-family: titulofont;
 src: url("../fonts/titulofont.ttf") format("truetype");
 }
 
+@font-face {
+font-family: times;
+src: url("../fonts/times.ttf") format("truetype");
+}
+
+
+
 h1 {
   font-family: titulofont;
   color:#FF0000;
@@ -10,8 +17,24 @@ h1 {
   -webkit-text-stroke-width: 0.50px; 
 }
 
+
+
+.blanco-selectivo{
+	color:white;
+}
 .color-salvaje{
 	background-color:#1A6A44;	
+}
+.borde-infinito{
+	border-bottom: 5px solid #ABAD61;
+	border-top: 5px solid #ABAD61;
+}
+
+.borde-magico{
+  	border-top: 5px solid #ABAD61;
+  	border-right: 5px solid #ABAD61;
+  	border-bottom: 5px solid #ABAD61;
+  	border-left: 5px solid #ABAD61;
 }
 
 .color-rojo{
